@@ -1,12 +1,17 @@
 import React from 'react';
-import Fondo from "../imgs/fondo.png";
+import Titulos from "../components/Titulos/Titulos.js"
+import TextoDescripcion from '../components/TextoDescripcion/TextoDescripcion.js';
+import Footer from '../components/Footer/Footer.js';
 
 function Home() {
     return (
-        <div className='contenedor-fondo'>
-            <img className="fondo" src={Fondo} alt="Fondo" />
+        <div className='landigPage'>
+            <Titulos/>
+            <TextoDescripcion/>
+            <Footer/>
         </div>
     );
 }
 
 export default Home;
+    
