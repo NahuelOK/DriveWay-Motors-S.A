@@ -6,3 +6,7 @@
     background-position: center; /* Centra la imagen de fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
+.centro-pagina{
+    display: flex;
+    justify-content: space-between;
+}
