@@ -1,0 +1,12 @@
+.landigPage {
+    background-image: url("../../imgs/fondo.png");
+    width: 100%;
+    min-height: 100vh; /* Cambiado de height a min-height */
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el área */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.centro-pagina{
+    display: flex;
+    justify-content: space-between;
+}
